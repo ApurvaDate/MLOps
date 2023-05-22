@@ -1,0 +1,14 @@
+Session 1.4: Course overview
+22/05/2023
+•	As we get again in the notebook we don’t know which model was better, hence experiment tracking and model registry is very important for model tracking and for that we use MLflow.
+•	We created function for reading files, but if we want to change the data we have to go back again into the directory. We will learn machine learning pipeline.
+•	Steps will be :
+1)	Load and prepare the data
+2)	Vectorise (convert the data into feature matrix
+3)	Train the model
+So we can convert all these steps into ML pipeline
+4)	The output of the pipeline is ML model; we use the model before putting it into a Machine learning service (Web service), but there are other ways to deploy the model.
+5)	Model monitoring, if model is not performing properly we will get an alert. So we go back to our pipeline and execute it with new data. So this pipeline will produce a new model we will use into the service. Highest automation level. Automatic training and model deployment we need to develop such systems.
+6)	We will also learn processes involved.
+
+
